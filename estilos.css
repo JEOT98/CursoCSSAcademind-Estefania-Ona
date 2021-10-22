@@ -18,6 +18,12 @@
     margin-left: 110px;
 }
 
+.plan__list {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
 .plan {
     background: rgb(175, 251, 175);
     text-align: center;
