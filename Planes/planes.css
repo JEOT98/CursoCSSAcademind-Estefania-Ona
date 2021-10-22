@@ -11,8 +11,9 @@ main  {
 
 .package:hover,
 .package:active {
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 3px 5px rgba(104, 104, 104, 0.5);
     border-color: black;
+    /* border-color: black !important; */
 }
 
 .package a {
@@ -44,6 +45,11 @@ main  {
     border-right: none;
     border-left: 4px solid white;
     text-align: right;
+}
+
+#plus:hover,
+#plus:active {
+    border-left-color: black;
 }
 
 #free {
