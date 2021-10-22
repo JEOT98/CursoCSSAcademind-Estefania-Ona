@@ -1,12 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 
 #product-overview {
-    background: url(../Curso-CSS-Academind/freedom.jpg);
+    background: url(spotify.jpg);
     width: 100%;
-    height: 528px;
+    height: 465px;
     padding: 10px;
+    background-position: center;
 }
 
 .section-title {
@@ -16,6 +22,8 @@ body {
 #product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    margin-left: 110px;
 }
 
 /* h1 {
@@ -24,12 +32,8 @@ body {
 
 .main-header {
     width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: #2ddf5c;
+    background: #000000;
     padding: 8px 16px;
-    z-index: 1;
 }
 
 .main-header > div {
@@ -38,7 +42,7 @@ body {
 }
 
 .main-header__brand {
-    color: #0e4f1f;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
@@ -64,7 +68,7 @@ body {
 
 .main-nav__item a {
     text-decoration: none;
-    color: #0e4f1f;
+    color: #ffffff;
     font-weight: bold;
     padding: 3px 0;
 }
@@ -77,14 +81,14 @@ body {
 
 .main-nav__item--cta a {
     color: white;
-    background: #ff1b68;
+    background: green;
     padding: 8px 16px;
     border-radius: 8px;
 }
 
 .main-nav__item--cta a:hover,
 .main-nav__item--cta a:active {
-   color: #ff1b68;
+   color: green;
    background: white;
    border: none;
 }
