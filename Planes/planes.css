@@ -34,8 +34,16 @@ main  {
     background: white;
 }
 
+.clearfix {
+    clear: both;
+}
+
 #plus {
-    background: green;
+    background: black;
+    float: right;
+    border-right: none;
+    border-left: 4px solid white;
+    text-align: right;
 }
 
 #free {
@@ -43,13 +51,13 @@ main  {
 }
 
 #premium {
-    background: black;
+    background: green;
 }
 
-#premium .package__title {
+#plus .package__title {
     color: rgb(42, 177, 42);
 }
 
-#premium .package__subtitle {
+#plus .package__subtitle {
     color: white;
 }
