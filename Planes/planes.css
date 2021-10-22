@@ -15,6 +15,7 @@ main  {
     margin: 16px 0;
     border: 2px solid green;
     border-left: none;
+    position: relative;
 }
 
 .package:hover,
@@ -29,6 +30,18 @@ main  {
     color: inherit;
     display: block;
     padding: 32px;
+}
+
+.package__badge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: green;
+    background: white;
+    padding: 8px;
 }
 
 .package__subtitle {
@@ -47,6 +60,10 @@ main  {
     clear: both;
 }
 
+#free {
+    background: green;
+}
+
 #plus {
     background: black;
     float: right;
@@ -60,10 +77,6 @@ main  {
     border-left-color: black;
 }
 
-#free {
-    background: green;
-}
-
 #premium {
     background: green;
 }
@@ -75,3 +88,4 @@ main  {
 #plus .package__subtitle {
     color: white;
 }
+

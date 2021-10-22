@@ -1,9 +1,11 @@
+
+
 #product-overview {
     background: url(spotify.jpg);
+    /* background-size: cover; */
     width: 100%;
     height: 465px;
     padding: 10px;
-    background-position: center;
 }
 
 .section-title {
@@ -56,12 +58,8 @@
     color: rgb(53, 53, 53);
 }
 
-.plan--highlighted .plan__title {
-    color: white;
-}
-
 .plan--highlighted .plan__price {
-    color: black;
+    color: white;
 }
 
 .plan__features {
