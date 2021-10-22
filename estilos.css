@@ -52,11 +52,11 @@ body {
 }
 
 .plan__title {
-    color: #0e4f1f;
+    color: green;
 }
 
 .plan__price {
-    color: #858585;
+    color: rgb(53, 53, 53);
 }
 
 .plan--highlighted .plan__title {
@@ -64,7 +64,7 @@ body {
 }
 
 .plan--highlighted .plan__price {
-    color: #0e4f1f;
+    color: black;
 }
 
 .plan__features {
@@ -75,6 +75,23 @@ body {
 
 .plan__feature {
     margin: 8px 0;
+}
+
+.button {
+    background: green;
+    color: white;
+    font: inherit;
+    border: 1.5px solid green;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    background: white;
+    color: green;
 }
 
 /* h1 {
