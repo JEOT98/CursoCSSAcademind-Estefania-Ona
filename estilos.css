@@ -78,7 +78,7 @@ body {
 }
 
 .button {
-    background: green;
+    background: black;
     color: white;
     font: inherit;
     border: 1.5px solid green;
@@ -92,6 +92,10 @@ body {
 .button:active {
     background: white;
     color: green;
+}
+
+.button:focus {
+    outline: none;
 }
 
 /* h1 {
