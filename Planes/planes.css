@@ -3,7 +3,8 @@ main  {
 }
 
 .background {
-    background: url(../images/música.jpg);
+    background: url(../images/música.jpg) center/cover;
+    filter: grayscale(60%);
     width: 100%;
     height: 1080px;
     position: fixed;
