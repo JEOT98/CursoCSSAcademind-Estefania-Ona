@@ -1,7 +1,7 @@
 
 
 #product-overview {
-    /* background: url(../Curso-CSS-Academind/images/spotify.jpg) left 10% bottom 20%/cover no-repeat border-box; */
+    background: linear-gradient(to top, black 10%, transparent), url(../Curso-CSS-Academind/images/spotify.jpg) left 10% bottom 20%/cover no-repeat border-box, green;
     /* background-image: url(spotify.jpg);
     background-size: cover;
     background-position: left 10% bottom 20%;
@@ -9,7 +9,7 @@
     background-origin: border-box;
     background-clip: border-box; */
     /* background-image: linear-gradient(180deg, black, green); */
-    background-image: radial-gradient(ellipse farthest-corner at 20% 50%, black, green, rgb(169, 223, 169));
+    /* background-image: radial-gradient(ellipse farthest-corner at 20% 50%, black, green, rgb(169, 223, 169)); */
     width: 100%;
     height: 465px;
     padding: 10px;
@@ -24,7 +24,7 @@
 }
 
 #product-overview h1 {
-    color: black;
+    color: white;
     font-family: 'Anton', sans-serif;
     font-weight: lighter;
     position: absolute;
