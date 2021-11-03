@@ -12,8 +12,7 @@
     /* background-image: radial-gradient(ellipse farthest-corner at 20% 50%, black, green, rgb(169, 223, 169)); */
     width: 100%;
     height: 465px;
-    padding: 10px;
-    margin-top: 40px;
+    margin-top: 2.5rem;
     /* border: 5px dashed red; */
     position: relative;
 }
