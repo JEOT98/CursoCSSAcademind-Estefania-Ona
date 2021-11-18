@@ -92,3 +92,19 @@ main  {
     color: rgb(250, 250, 250);
 }
 
+.button__proyectos {
+    background: rgb(250, 250, 250);
+    color: black;
+    font: inherit;
+    border: 1.5px solid rgb(100, 184, 166);
+    padding: 0.3rem;
+    border-radius: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button__proyectos:hover,
+.button__proyectos:active {
+    background: rgb(250, 250, 250);
+    color: rgb(100, 184, 166);
+}
