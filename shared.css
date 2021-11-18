@@ -213,6 +213,7 @@ body {
 }
 
 .button__redes {
+    margin: 10px;
     background: black;
     color: rgb(250, 250, 250);
     font: inherit;
