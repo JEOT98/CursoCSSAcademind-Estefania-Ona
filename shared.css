@@ -99,9 +99,26 @@ body {
 }
 
 .main-nav__item a:hover,
-.main-nav__item a:active {
+.main-nav__item a:active,
+.mobile-nav__item a:hover,
+.mobile-nav__item a:active {
     color: rgb(100, 184, 166);
     border-bottom: 5px solid rgb(100, 184, 166);
+}
+
+.main-nav a,
+.mobile-nav a {
+	color: rgb(53, 52, 52);
+	text-decoration: none;
+	position: relative;
+	top: 0;
+	transition: .3s;
+}
+
+.main-nav a:hover,
+.mobile-nav a:hover {
+	color: rgb(100, 184, 166);
+	top: 2px;
 }
 
 /* .main-nav__item--cta a,
@@ -158,6 +175,7 @@ body {
     background: rgb(245, 245, 245);
     width: 15%;
     height: 100vh;
+    border-top-right-radius: 30px;
 }
 
 .mobile-nav__items {
@@ -179,9 +197,9 @@ body {
 
 .button {
     background: black;
-    color: white;
+    color: rgb(250, 250, 250);
     font: inherit;
-    border: 1.5px solid green;
+    border: 1.5px solid rgb(100, 184, 166);
     padding: 0.5rem;
     border-radius: 18px;
     font-weight: bold;
@@ -190,8 +208,8 @@ body {
 
 .button:hover,
 .button:active {
-    background: white;
-    color: green;
+    background: rgb(250, 250, 250);
+    color: rgb(100, 184, 166);
 }
 
 .button:focus {

@@ -15,6 +15,8 @@
 .testimonial__image-container {
     width: 65%;
     max-width: 700px;
+    margin-left: 40px;
+    margin-right: 40px;
     display: inline-block;
     vertical-align: middle;
     box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3);
@@ -27,10 +29,10 @@
 
 .testimonial__info {
     text-align: right;
-    padding: 0.9rem;
+    padding: 0;
     display: inline-block;
     vertical-align: middle;
-    width: 30%;
+    width: 36%;
 }
 
 #Beneficio-2.testimonial {
@@ -43,7 +45,7 @@
 
 .testimonial__name {
     margin: 0.2rem;
-    color: green;
+    color: rgb(100, 184, 166);
     font-size: 2rem;
 }
 

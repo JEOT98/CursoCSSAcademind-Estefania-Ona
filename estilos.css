@@ -1,7 +1,8 @@
 
 
 #product-overview {
-    background: linear-gradient(to top, black 10%, transparent), url(/images/Portadaa-03.jpg) left 10% bottom 20%/cover no-repeat border-box, green;
+    background: linear-gradient(to top, black 10%, transparent), url(/images/Portadaa-03.jpg) left 10% bottom 20%/cover no-repeat border-box, rgb(100, 184, 166);
+    /* background: linear-gradient(to top, black 10%, transparent), url(/images/Portadaa-03.jpg) left 10% bottom 20%/cover no-repeat border-box, green; */
     /* background-image: url(spotify.jpg);
     background-size: cover;
     background-position: left 10% bottom 20%;
@@ -18,19 +19,21 @@
 }
 
 .section-title {
-    color: green;
+    color: rgb(100, 184, 166);
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.4rem;
 }
 
-#product-overview h1 {
+/* #product-overview h1 {
     color: rgb(210, 210, 210);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 60px;
     font-weight: lighter;
     position: absolute;
     bottom: 0;
-    left: 25%;
-}
+    left: 35%;
+} */
 
 .plan__list {
     width: 80%;
@@ -39,25 +42,34 @@
 }
 
 .plan {
-    background: rgb(175, 251, 175);
+    background: rgb(122, 122, 122);
     text-align: center;
     padding: 16px;
     margin: 8px;
     display: inline-block;
     width: 30%;
     vertical-align: middle;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+
 }
 
-.plan--highlighted {
-    background: green;
+.plan:hover{
+	transform: scale(1.05);
+	/* transform: rotate3d(1,1,1, 2deg); */
+	box-shadow: .1rem 1rem 2rem rgba(0,0,0, .2);
+}
+
+/* .plan--highlighted {
+    background: rgb(100, 184, 166);
     color: white;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-}
+} */
 
 .plan__annotation {
     font-size: 16px;
-    background: white;
-    color: green;
+    background: rgb(250, 250, 250);
+    color: rgb(100, 184, 166);
     padding: 8px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
     border-radius: 18px;
@@ -72,13 +84,14 @@
 }
 
 .plan--highlighted .plan__price {
-    color: white;
+    color: rgb(250, 250, 250);
 }
 
 .plan__features {
     list-style: none;
     margin: 0;
     padding: 0;
+    color: rgb(250, 250, 250);
 }
 
 .plan__feature {
@@ -86,13 +99,13 @@
 }
 
 #key-features {
-    background: black;
+    background: rgb(100, 184, 166);
     margin-top: 80px;
     padding: 16px;
 }
 
 #key-features .section-title {
-    color: white;
+    color: rgb(250, 250, 250);
     margin: 32px;
 }
 
@@ -110,10 +123,10 @@
 }
 
 .key-feature__image {
-    background: #ceffd6;
+    background: rgb(250, 250, 250);
     width: 147px;
     height: 147px;
-    border: 2px solid green;
+    border: 2px solid rgb(100, 184, 166);
     border-radius: 50%;
     margin: auto;
 }
@@ -121,7 +134,7 @@
 .key-feature__description {
     text-align: center;
     font-weight: bold;
-    color: white;
+    color: rgb(250, 250, 250);
     font-size: 20px;
 }
 
@@ -136,7 +149,7 @@
     top: 20%;
     left: 30%;
     width: 40%;
-    background: white;
+    background: rgb(250, 250, 250);
     padding: 1rem;
     border: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
@@ -154,7 +167,7 @@
     border: 1px solid black;
     background: black;
     text-decoration: none;
-    color: white;
+    color: rgb(250, 250, 250);
     font: inherit;
     padding: 0.5rem 1rem;
     cursor: pointer;
@@ -162,8 +175,8 @@
 
 .modal__action:hover,
 .modal__action:active {
-    background: darkgreen;
-    background-color: darkgreen;
+    background: rgb(100, 184, 166);
+    background-color: rgb(100, 184, 166);
 }
 
 .modal__action--negative {
@@ -173,6 +186,6 @@
 
 .modal__action--negative:hover,
 .modal__action--negative:active {
-    background: darkgreen;
-    background-color: darkgreen;
+    background: rgb(100, 184, 166);
+    background-color: rgb(100, 184, 166);
 }

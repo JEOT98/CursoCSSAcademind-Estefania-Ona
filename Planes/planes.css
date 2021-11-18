@@ -3,8 +3,7 @@ main  {
 }
 
 .background {
-    background: url(/images/música.jpg) center/cover;
-    filter: grayscale(60%);
+    background: url(/images/robot.png) center/cover;
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -12,11 +11,12 @@ main  {
 }
 
 .package {
-    width: 80%;
-    margin: 1rem 0;
-    border: 2px solid green;
+    width: 46%;
+    margin: 2rem 2rem;
+    border: 2px solid rgb(100, 184, 166);
     border-left: none;
     position: relative;
+    border-radius: 30px;
 }
 
 .package:hover,
@@ -30,7 +30,7 @@ main  {
     text-decoration: none;
     color: inherit;
     display: block;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .package__badge {
@@ -40,21 +40,23 @@ main  {
     margin: 1.2rem;
     font-size: 0.8rem;
     font-weight: bold;
-    color: green;
-    background: white;
+    color: black;
+    background: rgb(250, 250, 250);
     padding: 0.5rem;
+    border-radius: 30px;
 }
 
 .package__subtitle {
-    color: white;
+    color: rgb(250, 250, 250);
 }
 
 .package__info {
     padding: 1rem;
-    border: 1PX solid green;
+    border: 1PX solid rgb(100, 184, 166);
     font-size: 1.2rem;
-    color: green;
-    background: white;
+    color: black;
+    background: rgb(250, 250, 250);
+    border-radius: 30px;
 }
 
 .clearfix {
@@ -62,14 +64,14 @@ main  {
 }
 
 #free {
-    background: green;
+    background: rgb(100, 184, 166);
 }
 
 #plus {
     background: black;
     float: right;
-    border-right: none;
-    border-left: 2px solid green    ;
+    /* border-right: none; */
+    border-left: 2px solid rgb(100, 184, 166);
     text-align: right;
 }
 
@@ -79,14 +81,14 @@ main  {
 }
 
 #premium {
-    background: green;
+    background: rgb(100, 184, 166);
 }
 
 #plus .package__title {
-    color: rgb(42, 177, 42);
+    color: rgb(100, 184, 166);
 }
 
 #plus .package__subtitle {
-    color: white;
+    color: rgb(250, 250, 250);
 }
 
