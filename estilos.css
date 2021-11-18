@@ -1,7 +1,7 @@
 
 
 #product-overview {
-    background: linear-gradient(to top, black 10%, transparent), url(/images/spotify.jpg) left 10% bottom 20%/cover no-repeat border-box, green;
+    background: linear-gradient(to top, black 10%, transparent), url(/images/Portadaa-03.jpg) left 10% bottom 20%/cover no-repeat border-box, green;
     /* background-image: url(spotify.jpg);
     background-size: cover;
     background-position: left 10% bottom 20%;
@@ -11,7 +11,7 @@
     /* background-image: linear-gradient(180deg, black, green); */
     /* background-image: radial-gradient(ellipse farthest-corner at 20% 50%, black, green, rgb(169, 223, 169)); */
     width: 100vw;
-    height: 60vh;
+    height: 100vh;
     margin-top: 2.5rem;
     /* border: 5px dashed red; */
     position: relative;
@@ -23,13 +23,13 @@
 }
 
 #product-overview h1 {
-    color: white;
-    font-family: 'Anton', sans-serif;
-    font-size: 40px;
+    color: rgb(210, 210, 210);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
     font-weight: lighter;
     position: absolute;
     bottom: 0;
-    left: 38%;
+    left: 25%;
 }
 
 .plan__list {
