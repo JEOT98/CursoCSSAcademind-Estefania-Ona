@@ -11,12 +11,13 @@ main  {
 }
 
 .package {
-    width: 46%;
-    margin: 2rem 2rem;
+    width: 30%;
+    margin: 2rem 12rem;
     border: 2px solid rgb(100, 184, 166);
     border-left: none;
     position: relative;
     border-radius: 30px;
+    opacity: 85%;
 }
 
 .package:hover,
@@ -56,32 +57,30 @@ main  {
     font-size: 1.2rem;
     color: black;
     background: rgb(250, 250, 250);
-    border-radius: 30px;
+    border-radius: 40px;
 }
 
 .clearfix {
     clear: both;
 }
 
-#free {
+#free,
+#premium {
     background: rgb(100, 184, 166);
+    text-align: center;
 }
 
 #plus {
-    background: black;
+    background: rgb(51, 51, 51);
     float: right;
     /* border-right: none; */
     border-left: 2px solid rgb(100, 184, 166);
-    text-align: right;
+    text-align: center;
 }
 
 #plus:hover,
 #plus:active {
     border-left-color: black;
-}
-
-#premium {
-    background: rgb(100, 184, 166);
 }
 
 #plus .package__title {
@@ -97,7 +96,7 @@ main  {
     color: black;
     font: inherit;
     border: 1.5px solid rgb(100, 184, 166);
-    padding: 0.3rem;
+    padding: 0.4rem;
     border-radius: 18px;
     font-weight: bold;
     cursor: pointer;

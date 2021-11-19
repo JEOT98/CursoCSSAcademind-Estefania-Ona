@@ -11,7 +11,7 @@
     background-clip: border-box; */
     /* background-image: linear-gradient(180deg, black, green); */
     /* background-image: radial-gradient(ellipse farthest-corner at 20% 50%, black, green, rgb(169, 223, 169)); */
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     margin-top: 2.5rem;
     /* border: 5px dashed red; */
@@ -19,10 +19,11 @@
 }
 
 .section-title {
-    color: rgb(100, 184, 166);
+    margin-top: auto;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2.4rem;
+    font-size: 1.8rem;
 }
 
 /* #product-overview h1 {
@@ -37,28 +38,27 @@
 
 
 .plan__list {
-    width: 90%;
-    margin: auto;
+    width: 100%;
+    margin: 20px;
     text-align: center;
 }
 
 .plan {
-    background: black;
     text-align: center;
     padding: 16px;
     margin: 18px;
     display: inline-block;
     width: 30%;
     vertical-align: middle;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 2px 2px rgb(63, 63, 63);
     border-radius: 30px;
 
 }
 
 .plan:hover{
-	transform: scale(1.01);
+	transform: scale(1.02);
 	/* transform: rotate3d(1,1,1, 2deg); */
-	box-shadow: .1rem 1rem 2rem rgba(0,0,0, .2);
+	box-shadow: 0.3rem 0.3rem 0.8rem rgb(63, 63, 63);
 }
 
 /* .plan--highlighted {
@@ -109,9 +109,10 @@
 
 .plan__list{
     padding: 1rem;
-    max-width: 51rem;
-    margin: 0 auto;
+    max-width: 50rem;
+    margin: auto;
     text-align: center;
+    opacity: 85%;
 }
 
 .plan{
@@ -123,7 +124,7 @@
     padding: 1rem;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
     box-sizing: border-box;
-    margin: 1rem;
+    margin: 3rem;
     border-radius: 1rem;
 }
 
@@ -133,8 +134,9 @@
 
 @media screen and (min-width : 49rem) {
     .plan{
-        width: 25%;
+        width: 28%;
         height: auto;
+        margin: 15px;
     }
 
     .plans{
@@ -152,6 +154,7 @@
     .plan{
         width: 25%;
         height: 60%;
+        margin: 40px;
     }
     .solo-xbs{
         display: inline-block;
@@ -161,13 +164,13 @@
 
 #key-features {
     background: rgb(100, 184, 166);
-    margin-top: 80px;
+    margin: 26px; 
     padding: 16px;
 }
 
 #key-features .section-title {
     color: rgb(250, 250, 250);
-    margin: 32px;
+    margin: 1.8rem;
 }
 
 .key-feature__list {
@@ -192,12 +195,12 @@
     margin: auto;
 } */
 
-.key-feature__description {
+/* .key-feature__description {
     text-align: center;
     font-weight: bold;
     color: rgb(250, 250, 250);
     font-size: 20px;
-}
+} */
 
 /* h1 {
     font-family: sans-serif;
